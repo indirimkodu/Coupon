@@ -1,0 +1,25 @@
+<div id="coupon-header">
+	<div class="shadow">here is the shadow</div>
+	 <div class="coupon-holder">
+		<div class="coupon-frame">
+			<div class="header-bar">
+				
+				<?php get_search_form(); ?>
+				  <div id="logo">
+				<?php if ( $coupon_options->use_logo ) { ?>
+
+					<a href="<?php echo home_url('/'); ?>" title="<?php bloginfo( 'description' ); ?>">
+					<img src="<?php if ( ! empty( $coupon_options->logo_url ) ) echo $coupon_options->logo_url; 
+					else { echo coupon_locate_template_uri('images/logo.png'); } ?>" alt="<?php bloginfo( 'name' ); ?>" />
+					</a>
+
+				<?php } else { ?>
+					<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+					<div class="description"><?php bloginfo( 'description' ); ?></div>
+				<?php } ?>
+				
+				</div> 
+			</div> 
+		</div> <!-- #coupon-frame -->
+	</div> <!-- #coupon-holder -->
+</div> <!-- #coupon-header -->
