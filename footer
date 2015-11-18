@@ -1,0 +1,11 @@
+<div id="coupon-footer">
+	<div class="footer-bar">
+		<div class="footer-bar-holder">
+
+			<?php wp_nav_menu( array( 'theme_location' => 'secondary', 'container' => '', 'depth' => 8, 'fallback_cb' => false ) ); ?>
+			<p><a href="http://www.indirimkodu.com/" target="_blank" rel="follow">INDIRIM KODU</a> 
+			<?php _e( 'Powered by', APP_TD ); ?> <a href="http://wordpress.org/" target="_blank" rel="follow">WordPress</a></p>
+
+		</div>
+	</div>
+</div> <!-- #coupon-footer -->
