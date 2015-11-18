@@ -5,7 +5,8 @@
 				<h2><?php _e( 'Sayfa Bulunamadı', BOX_TD ); ?></h2>
 				<div class="text-box">
 					<p><?php _e( "Üzgünüz ama galiba aradığınız sayfa burada değil.", BOX_TD ); ?></p>
-					<p><?php _e( "İsterseniz bir de yukarıdaki arama motorunu deneyin.", BOX_TD ); ?></p>
+					<p><?php _e( "İsterseniz bir de anasayfamıza dönmeyi deneyin.", BOX_TD ); ?></p>
+					<p><?php _e( "Anasayfa adresimiz: http://www.indirimkodu.com", BOX_TD ); ?></p>
 				</div>
 			</div>
 		</div>
